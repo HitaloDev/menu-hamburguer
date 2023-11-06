@@ -22,7 +22,6 @@
 
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.314);
 }
-
 .lista-ul{
     font-size: 18px;
 
@@ -30,6 +29,7 @@
     gap: 28px;
     font-size: 25px;
     list-style: none;
+    transition: transform 0.3s ease-in;
 }
 
 .lista-ul a {
@@ -40,9 +40,10 @@
 .hamburguer {
     display: none;
     cursor: pointer;
+    
 }
 
-.hamburguer img {
+#hamburguer {
     width: 40px;
 }
 
@@ -77,7 +78,7 @@
         background-color: rgb(36, 36, 36);
         width: 100vw;
         height: 100vh;
-        transition: 1s ease;
+        transition: transform 0.3s ease-in;
     }
 
     .hamburguer {
